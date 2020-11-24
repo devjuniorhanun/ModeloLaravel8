@@ -1,61 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Modelo de Back em Laravel
+## Modelo de Back em Laravel
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- **[Laravel 8.15.*](http://laravel.com)**
+- **[Docker 19.03.*](http://docker.com)**
+- **[Php 7.4.*](https://www.php.net/releases/7_4_0.php)**
+- **[MariaDb 10.4.*](https://downloads.mariadb.org/)**
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![GitHub](https://img.shields.io/github/license/devjuniorhanun/ModeloLaravel8)
+![Twitter Follow](https://img.shields.io/twitter/follow/HanunWinston?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/devjuniorhanun/ModeloLaravel8)
+![GitHub All Releases](https://img.shields.io/github/downloads/devjuniorhanun/ModeloLaravel8/total)
+![GitHub language count](https://img.shields.io/github/languages/count/devjuniorhanun/ModeloLaravel8)
+![GitHub top language](https://img.shields.io/github/languages/top/devjuniorhanun/ModeloLaravel8)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/devjuniorhanun/ModeloLaravel8)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h4 align="center"> 
+	🚧  Projeto 🚀 Em construção...  🚧
+</h4>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Features
 
-## Learning Laravel
+- [x] Cadastro de Peril, Permissões, Usuarios, Perfil x Permissões
+- [X] Cadastro de Perfil x Cargo
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### Para instalação
 
-## Laravel Sponsors
+### Instalação
+Primeiramente clonar o projeto.
+```
+git clone https://github.com/devjuniorhanun/ModeloLaravel8.git nomeProjeto
+```
+Entra no projeto resce criado.
+```
+cd nomeProjeto
+```
+git push -u origin master
+Instalação das dependencias do composer.
+```
+composer install
+```
+Instalação das dependencias do node
+```
+yarn install ou npm install
+```
+Gerar o arquivo .env
+```
+cp .env.example .env
+```
+Gerando uma nova chave key do laravel
+```
+php artisan  key:generate
+```
+Configurar o arquivo .env
+```
+nano .env
+```
+Rotando as migrates e seeds
+```
+php artisan migrate:refresh --seed
+```
+Rotando o servidor
+```
+php artisan server
+```
+Conectar no servidor
+```
+http://localhost:8000
+```
+Login e senha do servidor
+```
+login: admin@admin.com
+senha: 123456789
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Licença
+Sistema open-source licenciado em [GNU GENERAL PUBLIC LICENSE](https://fsf.org/).
