@@ -21304,8 +21304,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/d2608151-67d7-46d1-b5aa-6038d4f2e3cf/Projetos/Php/Laravel/Modelo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /mnt/d2608151-67d7-46d1-b5aa-6038d4f2e3cf/Projetos/Php/Laravel/Modelo/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /mnt/0ECE29BD79BEB7CF/Projetos/Laravel/TecnoLavoura/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /mnt/0ECE29BD79BEB7CF/Projetos/Laravel/TecnoLavoura/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })

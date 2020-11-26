@@ -1,5 +1,12 @@
 models:
-  # ...
-
-controllers:
-  # ...
+  Models\Tenant:
+    uuid: uuid
+    nome: string unique
+    cnpj: string unique
+    url: string nullable
+    email: string unique
+    telefone: string nullable
+    logo: string nullable
+    status: enum:Ativa,Desativada default:'Ativa'
+    softDeletes: true
+    timestamps: true
